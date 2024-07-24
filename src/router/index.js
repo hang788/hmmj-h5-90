@@ -58,7 +58,7 @@ const router = new VueRouter({
 const whiteList = ['/login', '/register']
 
 // 导航守卫 => 全局前置守卫
-router.beforeEach((to, from, next) => {
+router.beforeEach((to， _from, next) => {
   /**
    * to: 到哪里去
    * from: 从哪里来
